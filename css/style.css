@@ -1,7 +1,13 @@
 @font-face {
-  font-family: 'Minecraft';
-  src: url('https://fonts.cdnfonts.com/css/minecraft');
+    font-family: 'Minecraft';
+    src: url('../font/Minecraft.woff2') format('woff2'),
+        url('../font/Minecraft.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
+
+
 
 * {
   margin: 0;
